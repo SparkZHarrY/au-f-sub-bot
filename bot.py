@@ -196,13 +196,13 @@ async def _(event):
 @BotzHub.on(events.NewMessage(pattern="^/start$"))
 async def strt(event):
     await event.reply(
-        f"Hi. I'm a force subscribe bot made specially for @{channel}!\n\nCheckout @BotzHub :)",
+        f"Hi. I'm a force subscribe bot made specially for @{channel}!\n\nCheckout @linkz_3x :)",
         buttons=[
             Button.url("Channel", url=f"https://t.me/{channel}"),
-            Button.url("Repository", url="https://github.com/xditya/ForceSub"),
+            Button.url("Repository", url="https://t.me/XxX_T_O_X_I_C_XxX"),
         ],
     )
 
 
-log.info("ForceSub Bot has started as @%s.\nDo visit @BotzHub!", bot_self.username)
+log.info("ForceSub Bot has started as @%s.\nDo visit @linkz_3x!", bot_self.username)
 BotzHub.run_until_disconnected()
